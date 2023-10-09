@@ -1,0 +1,9 @@
+body{
+    background-color: green;
+}
+p{
+    background-color: red;
+}
+h1, h5{
+    background-color: yellow;
+}
