@@ -1,6 +1,11 @@
 const prompt = require("prompt-sync")();
 
-let x = 5;
-let y = '5';
-console.log(x==y)
-console.log(x===y)
+let numbers = prompt().split(" ").map(Number)
+let inpt = numbers.map((n) => {
+    if (n > 0) {
+        return -n;
+    } else {
+        return Math.abs(n);
+    }
+});
+console.log(inpt)
