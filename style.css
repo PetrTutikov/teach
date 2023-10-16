@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #0018ED;
+    --mainFont: #2D2E3A;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    display: inline-flex;
+    padding: 22px 39px 21px 26px;
+    align-items: center;
+}
+
+.Frame769 {
+    display: flex;
+    align-items: center;
+    gap: 146px;
+}
+
+.Frame767 {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.Frame768 {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    font-family: "Source Sans Pro", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.Frame14 {
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    border-radius: 32px;
+    border: 2px solid var(--Blue, #0018ED);
+    background-color: white;
+
+}
+
+.Frame735 {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    color: var(--Blue, #0018ED);
+    font-family: "Source Sans Pro", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Frame2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.Frame4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.Frame690 {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
