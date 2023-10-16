@@ -12,37 +12,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="header">
-    <div class="Frame769">
-        <div class="Frame767">
-            <img src="/icons/logo.svg">
-            <button class="Frame14">
-                <div class="Frame735">
-                    <img src="/icons/menu.svg" width="24" height="24">
-                    Все курсы
-                </div>
-            </button>
-        </div>
-        <div class="Frame768">
-            <div class="Frame2">
-                <div>Школы</div>
-                <div>Авторы</div>
-                <div>Промокоды</div>
-                <div>О нас</div>
-                <div>Блог</div>
-            </div>
-            <div class="Frame4">
-                <img src="/icons/search.svg" width="24" height="24">
-                <div>Поиск</div>
-            </div>
-            <div class="Frame690">
-                <div class="Frame4">
-                    <img src="/icons/user.svg" width="24" height="24">
-                    <div>Войти</div>
-                </div>
-            </div>
-        </div>
+<nav class="header">
+    <div class="header__logo">
+        <img src="./icons/logo.svg" alt="logo">
+        <button class="header_button">
+            <img src="./icons/menu.svg" alt="icon_menu">
+            <span>Все курсы</span>
+        </button>
     </div>
-</div>
+    <div class="header__menu">
+        <ul>
+            <li><a href="#">Школы</a></li>
+            <li><a href="#">Авторы</a></li>
+            <li><a href="#">Промокоды</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Блог</a></li>
+        </ul>
+        <a href="#">
+            <img src="/icons/search.svg" alt="icon_search">
+            <span>Поиск</span>
+        </a>
+        <a href="#">
+            <img src="/icons/user.svg" alt="icon_user">
+            <span>Войти</span>
+        </a>
+    </div>
+</nav>
 </body>
 </html>
